@@ -1,10 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "@/components/Hero";
+import Products from "@/components/Products";
+import VideoSection from "@/components/VideoSection";
 
 export default function Home() {
 	return (
 		<>
-			<h1 className="text-4xl font-bold">Hello world</h1>
+			<Hero />
+			<VideoSection />
+			<Products />
 		</>
 	);
 }
