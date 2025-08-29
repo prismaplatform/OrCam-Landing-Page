@@ -3,7 +3,8 @@ import FadeContent from "./gsap/FadeContent";
 const Eligibility = () => {
 	return (
 		<div
-			className="min-h-[calc(100vh-4rem)] px-2 md:px-0 text-center pb-[200px] w-full flex justify-center"
+			id="eligibility"
+			className="min-h-[calc(100vh-4rem)] px-2 md:px-0 text-center pb-[100px] w-full flex justify-center"
 			style={{
 				background:
 					"linear-gradient(to top, rgba(220, 220, 220, 1) 0%, rgba(245, 245, 245, 0) 100%)",

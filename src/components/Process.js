@@ -92,6 +92,7 @@ const Process = () => {
 
 	return (
 		<div
+			id="proces"
 			ref={containerRef}
 			className="min-h-[calc(100vh)] px-2 md:px-0 text-center pb-[200px] w-full flex justify-center items-center relative z-10"
 			style={{
@@ -99,14 +100,14 @@ const Process = () => {
 					"radial-gradient(ellipse,rgba(245, 245, 245, 1) 20%, rgba(220, 220, 220, 1) 60%)",
 			}}>
 			<div className="w-full md:w-1/2 flex flex-col items-center justify-center">
-				<FadeContent className="text-5xl font-bold mt-10 md:mt-40 mb-20">
+				<FadeContent className="text-5xl font-bold mt-30 md:mt-40 mb-20">
 					<h2 className="text-5xl font-bold">Procedura programului</h2>
 				</FadeContent>
 				{processSteps.map((step, index) => (
 					<div
 						key={index}
 						ref={addToRefs} // Add the step's DOM element to the ref array
-						className={`w-full p-4 md:p-8 flex items-center justify-start text-left gap-10 md:gap-20 opacity-0 ${
+						className={`w-full p-4 md:p-8 py-1 flex items-center justify-start text-left gap-10 md:gap-20 opacity-0 ${
 							index === 0 ? "mt-8" : ""
 						}`}>
 						<i className={`text-3xl ${step.icon}`}></i>

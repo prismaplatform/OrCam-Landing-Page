@@ -1,8 +1,9 @@
 import Image from "next/image";
+import FadeContent from "./gsap/FadeContent";
 
 const ProductCard = ({ product }) => {
 	return (
-		<div className="flex flex-col items-center gap-5">
+		<FadeContent className="flex flex-col items-center gap-5">
 			<div className="h-[150px] flex justify-end align-bottom">
 				<Image
 					src={`/${product.image}`}
@@ -36,7 +37,7 @@ const ProductCard = ({ product }) => {
 					<span className="mt-2">{item.text}</span>
 				</div>
 			))}
-		</div>
+		</FadeContent>
 	);
 };
 

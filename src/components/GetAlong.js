@@ -46,7 +46,7 @@ const GetAlong = () => {
 						className="w-full lg:w-1/2 h-48 md:h-64 lg:h-full object-cover rounded-t-2xl lg:rounded-l-2xl lg:rounded-t-none"
 					/>
 					<div className="w-full lg:w-1/2 flex flex-col justify-center items-start gap-4 md:gap-6 p-6 md:p-8 lg:p-10 text-start">
-						<h3 className="text-xl md:text-2xl font-bold">
+						<h3 className="text-2xl md:text-3xl font-bold">
 							Punem la dispoziție o echipă
 						</h3>
 						<p className="text-sm md:text-base">
@@ -55,7 +55,7 @@ const GetAlong = () => {
 							pas, de la prima interacțiune până la utilizarea zilnică a
 							dispozitivului.
 						</p>
-						<h3 className="text-xl md:text-2xl font-bold">Nu ești singur</h3>
+						<h3 className="text-2xl md:text-3xl font-bold">Nu ești singur</h3>
 						<p className="text-sm md:text-base">
 							Tehnologia OrCam este mai mult decât un dispozitiv. Este un
 							partener în drumul tău spre independență, iar echipa noastră este
