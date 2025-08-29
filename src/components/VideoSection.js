@@ -27,7 +27,7 @@ const VideoSection = () => {
 				.to(video, {
 					scale: 0.9,
 					borderRadius: "24px",
-					duration: 1,
+					duration: 2,
 					ease: "power2.out",
 				});
 		}

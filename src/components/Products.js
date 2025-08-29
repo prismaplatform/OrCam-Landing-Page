@@ -1,4 +1,10 @@
+"use client";
 import ProductCard from "./ProductCard";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const products = [
 	{
@@ -114,14 +120,83 @@ const products = [
 ];
 
 const Products = () => {
+	const sectionRef = useRef(null);
+	const gradientRef = useRef(null);
+
+	useEffect(() => {
+		const section = sectionRef.current;
+		const gradient = gradientRef.current;
+
+		if (!section || !gradient) return;
+
+		// Set initial state - gradient is hidden
+		gsap.set(gradient, { opacity: 0, y: 100 });
+
+		// Animation for gradient appearing after video section and staying until products are gone
+		ScrollTrigger.create({
+			trigger: section,
+			start: "top 90%", // Start when section is about to enter viewport
+			end: "bottom bottom", // End when section bottom reaches viewport bottom
+			onEnter: () => {
+				gsap.to(gradient, {
+					opacity: 1,
+					y: 0,
+					duration: 0.8,
+					ease: "power3.out",
+				});
+			},
+			onLeave: () => {
+				gsap.to(gradient, {
+					opacity: 0,
+					y: 100,
+					duration: 0.6,
+					ease: "power3.in",
+				});
+			},
+			onEnterBack: () => {
+				gsap.to(gradient, {
+					opacity: 1,
+					y: 0,
+					duration: 0.8,
+					ease: "power3.out",
+				});
+			},
+			onLeaveBack: () => {
+				gsap.to(gradient, {
+					opacity: 0,
+					y: 100,
+					duration: 0.6,
+					ease: "power3.in",
+				});
+			},
+		});
+
+		// Cleanup function
+		return () => {
+			ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+		};
+	}, []);
+
 	return (
-		<section className="h-[calc(100vh-4rem)] px-2 md:px-0 text-center pt-[100px]">
-			<h2 className="text-5xl font-bold">Our Products</h2>
-			<div className="flex justify-center text-center gap-[100px] h-full flex-wrap pt-[150px]">
+		<section
+			ref={sectionRef}
+			className="min-h-[calc(100vh-4rem)] px-2 md:px-0 text-center pt-[100px] pb-[200px] relative">
+			<h2 className="text-5xl font-bold">Produse disponibile</h2>
+			<div className="flex justify-center text-center gap-[100px] flex-wrap pt-[150px]">
 				{products.map((product) => (
 					<ProductCard key={product.id} product={product} />
 				))}
 			</div>
+
+			{/* Sticky gradient overlay */}
+			<div
+				ref={gradientRef}
+				className="fixed bottom-0 left-0 right-0 h-[100px] pointer-events-none z-10"
+				style={{
+					background:
+						"linear-gradient(to top, rgba(245, 245, 245, 1) 10%, rgba(245, 245, 245, 0.8) 50%, rgba(245, 245, 245, 0) 100%)",
+				}}
+			/>
 		</section>
 	);
 };

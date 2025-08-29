@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProductCard = ({ product }) => {
 	return (

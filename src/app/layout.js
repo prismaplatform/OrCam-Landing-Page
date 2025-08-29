@@ -3,9 +3,6 @@ import "./globals.css";
 import Header from "@/layout/Header";
 import Head from "next/head";
 import Script from "next/script";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-config.autoAddCss = false;
 
 export const metadata = {
 	title: "Create Next App",
