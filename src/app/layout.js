@@ -1,6 +1,11 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/layout/Header";
+import Head from "next/head";
+import Script from "next/script";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 export const metadata = {
 	title: "Create Next App",
@@ -11,11 +16,16 @@ const roboto = Roboto({
 	weight: ["100", "300", "400", "500", "700", "900"],
 	subsets: ["latin"],
 });
-
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className={roboto.className}>
+			<Head></Head>
 			<body className={`${roboto.variable}`}>
+				<Script
+					src="https://kit.fontawesome.com/0e7d01b6b6.js"
+					crossOrigin="anonymous"
+					strategy="afterInteractive"
+				/>
 				<Header />
 				{children}
 			</body>

@@ -9,11 +9,29 @@ const products = [
 		info: [
 			{
 				text: "Citire texte",
-				icon: "",
+				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
-				"text-smart": "Citire smart",
-				"text-listen": "Ascultare texte",
+				text: "Citire smart",
+				icon: "fa-sharp fa-solid fa-circle-check",
+			},
+		],
+		info2: [
+			{
+				text: "4 ore de utilizare activă",
+				icon: "fa-sharp fa-regular fa-clock",
+			},
+			{
+				text: "De ținut în mână",
+				icon: "fa-sharp fa-regular fa-hand",
+			},
+			{
+				text: "2 ani garanție",
+				icon: "fa-sharp fa-regular fa-lock",
+			},
+			{
+				text: "Pe care se poate tasta",
+				icon: "fa-sharp fa-regular fa-hand-back-point-up",
 			},
 		],
 	},
@@ -22,12 +40,76 @@ const products = [
 		name: "OrCam MyEye Smart",
 		description: "Cel mai bun pentru citire zilnică",
 		image: "orcam-myeye-smart.webp",
+		info: [
+			{
+				text: "Citire texte",
+				icon: "fa-sharp fa-solid fa-circle-check",
+			},
+			{
+				text: "Citire smart",
+				icon: "fa-sharp fa-solid fa-circle-check",
+			},
+		],
+		info2: [
+			{
+				text: "1.5-2 ore de utilizare activă",
+				icon: "fa-sharp fa-regular fa-clock",
+			},
+			{
+				text: "Purtabil",
+				icon: "fa-sharp fa-regular fa-glasses-round",
+			},
+			{
+				text: "2 ani garanție",
+				icon: "fa-sharp fa-regular fa-lock",
+			},
+			{
+				text: "Bandă tactilă",
+				icon: "fa-sharp fa-regular fa-grip-lines",
+			},
+		],
 	},
 	{
 		id: 3,
 		name: "OrCam MyEye Pro",
 		description: "Cel mai bun pentru citire",
 		image: "orcam-myeye-pro.webp",
+		info: [
+			{
+				text: "Citire texte",
+				icon: "fa-sharp fa-solid fa-circle-check",
+			},
+			{
+				text: "Citire smart",
+				icon: "fa-sharp fa-solid fa-circle-check",
+			},
+		],
+		info2: [
+			{
+				text: "Citește texte",
+				icon: "fa-sharp fa-regular fa-file-text",
+			},
+			{
+				text: "Ușor de utilizat",
+				icon: "fa-sharp fa-regular fa-hand-point-up",
+			},
+			{
+				text: "Recunoaște fețe",
+				icon: "fa-sharp fa-regular fa-face-smile",
+			},
+			{
+				text: "Identifică produse & coduri de bare",
+				icon: "fa-sharp fa-regular fa-barcode",
+			},
+			{
+				text: "Recunoaștere bancnote",
+				icon: "fa-sharp fa-regular fa-money-bills",
+			},
+			{
+				text: "Detectare culori",
+				icon: "fa-sharp fa-regular fa-palette",
+			},
+		],
 	},
 ];
 
@@ -35,7 +117,7 @@ const Products = () => {
 	return (
 		<section className="h-[calc(100vh-4rem)] px-2 md:px-0 text-center pt-[100px]">
 			<h2 className="text-5xl font-bold">Our Products</h2>
-			<div className="flex justify-evenly text-center h-full flex-wrap pt-[150px]">
+			<div className="flex justify-center text-center gap-[100px] h-full flex-wrap pt-[150px]">
 				{products.map((product) => (
 					<ProductCard key={product.id} product={product} />
 				))}
