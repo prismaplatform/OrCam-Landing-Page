@@ -4,7 +4,7 @@ const Eligibility = () => {
 	return (
 		<div
 			id="eligibility"
-			className="px-2 md:px-0 text-center py-[150px] w-full flex justify-center"
+			className="px-5 md:px-0 text-center pb-[200px] md:py-[200px] w-full flex justify-center"
 			style={{
 				background:
 					"linear-gradient(to top, rgba(220, 220, 220, 1) 0%, rgba(245, 245, 245, 0) 100%)",

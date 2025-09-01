@@ -56,7 +56,6 @@ const Footer = () => {
 							</p>
 						</div>
 					</div>
-
 					{/* Middle Section - Navigation Menu */}
 					<div className="flex flex-col items-start lg:items-start">
 						<h3 className="text-lg font-semibold mb-6">Navigare</h3>
@@ -97,8 +96,6 @@ const Footer = () => {
 							</ul>
 						</nav>
 					</div>
-
-					{/* Right Section - EU Logo and Legal Links */}
 					<div className="flex flex-col justify-between items-start lg:items-end">
 						<div className="flex flex-col items-start lg:items-end">
 							<a href="https://anpd.gov.ro/web/proiecte/proiecte-europene/incluziune-sociala-a-persoanelor-cu-dizabilitati/">
@@ -118,15 +115,32 @@ const Footer = () => {
 						</div>
 						<div className="mt-8 flex flex-col space-y-2 text-left lg:text-right">
 							<a
-								href="/termeni-conditii"
+								href="https://www.orcam.com/ro-ro/terms-and-conditions"
 								className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
 								Termeni și Condiții
 							</a>
 							<a
-								href="/politica-cookies"
+								href="https://www.orcam.com/ro-ro/cookies-policy"
 								className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
 								Politica de Cookie-uri
 							</a>
+							<div className="flex space-x-3 mt-2">
+								<a href="https://www.facebook.com/OrCamTech">
+									<i className="fa-brands fa-facebook-f fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+								</a>
+								<a href="https://www.youtube.com/c/OrCamTech">
+									<i className="fa-brands fa-youtube fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+								</a>
+								<a href="https://twitter.com/OrCam">
+									<i className="fa-brands fa-x-twitter fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+								</a>
+								<a href="https://www.instagram.com/orcam_technologies/">
+									<i className="fa-brands fa-instagram fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+								</a>
+								<a href="https://www.linkedin.com/company/orcam/">
+									<i className="fa-brands fa-linkedin-in fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -22,35 +22,10 @@ const Process = () => {
 	useLayoutEffect(() => {
 		const ctx = gsap.context(() => {
 			const steps = stepRefs.current;
-			const timeline = gsap.timeline({
-				// Pin the container and define the scroll-based animation
-				scrollTrigger: {
-					trigger: containerRef.current,
-					start: "top top",
-					end: `+=${(steps.length - 1) * 500}`, // Adjust this value to control scroll distance
-					scrub: true,
-					pin: true,
-				},
-			});
 
-			// Loop through each step and add animations to the timeline
+			// Create individual scroll triggers for each step instead of pinning
 			steps.forEach((step, index) => {
-				// If it's not the first step, animate the previous one out
-				if (index > 0) {
-					timeline.to(
-						steps[index - 1],
-						{
-							opacity: 0,
-							y: -50,
-							duration: 0.5,
-							ease: "power1.out",
-						},
-						`step-${index}`
-					);
-				}
-
-				// Animate the current step in
-				timeline.fromTo(
+				gsap.fromTo(
 					step,
 					{
 						opacity: 0,
@@ -59,10 +34,15 @@ const Process = () => {
 					{
 						opacity: 1,
 						y: 0,
-						duration: 0.5,
-						ease: "power1.inOut",
-					},
-					`step-${index}`
+						duration: 0.8,
+						ease: "power2.out",
+						scrollTrigger: {
+							trigger: step,
+							start: "top 80%",
+							end: "bottom 20%",
+							toggleActions: "play none none reverse",
+						},
+					}
 				);
 			});
 		}, containerRef); // Scoped to the container ref
@@ -94,24 +74,22 @@ const Process = () => {
 		<div
 			id="proces"
 			ref={containerRef}
-			className="min-h-[calc(100vh)] px-2 md:px-0 text-center pb-[200px] w-full flex justify-center items-center relative z-10"
+			className="min-h-[calc(100vh)] px-2 md:px-0 text-center py-[80px] md:py-[150px] w-full flex justify-center items-center flex-col relative z-10"
 			style={{
 				background:
 					"radial-gradient(ellipse,rgba(245, 245, 245, 1) 20%, rgba(220, 220, 220, 1) 60%)",
 			}}>
-			<div className="w-full md:w-1/2 flex flex-col items-center justify-center">
-				<FadeContent className="text-5xl font-bold mt-30 md:mt-40 mb-20">
-					<h2 className="text-5xl font-bold">Procedura programului</h2>
-				</FadeContent>
+			<FadeContent className="text-5xl font-bold mb-20">
+				<h2 className="text-5xl font-bold">Procedura programului</h2>
+			</FadeContent>
+			<div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-15">
 				{processSteps.map((step, index) => (
 					<div
 						key={index}
 						ref={addToRefs} // Add the step's DOM element to the ref array
-						className={`w-full p-4 md:p-8 py-1 flex items-center justify-start text-left gap-10 md:gap-20 opacity-0 ${
-							index === 0 ? "mt-8" : ""
-						}`}>
-						<i className={`text-3xl ${step.icon}`}></i>
-						<h3 className="text-lg md:text-3xl font-bold">{step.text}</h3>
+						className="px-4 w-full flex items-center justify-start text-left gap-10 md:gap-20 opacity-0">
+						<i className={`text-xl md:text-2xl ${step.icon}`}></i>
+						<p className="text-md md:text-2xl font-medium">{step.text}</p>
 					</div>
 				))}
 			</div>
