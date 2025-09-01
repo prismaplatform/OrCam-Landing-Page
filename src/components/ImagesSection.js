@@ -13,7 +13,7 @@ const ImagesSection = () => {
 						className="w-full h-auto rounded-2xl shadow-md"
 					/>
 					<h4 className="text-xl mt-5">Citește de pe orice suprafață.</h4>
-					<h3 className="text-4xl font-bold">OrCam MyEye Smart</h3>
+					<h3 className="text-4xl font-bold">OrCam Read</h3>
 					<p>
 						Dispozitivul este special creat pentru persoanele nevăzătoare sau cu
 						deficiențe de vedere și folosește cea mai avansată inteligență

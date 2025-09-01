@@ -121,6 +121,24 @@ const Products = () => {
 			id="products"
 			className="px-2 md:px-0 text-center py-[60px] md:pb-[0px] relative">
 			<h2 className="text-5xl font-bold">Produse disponibile</h2>
+			<div className="mt-6 mb-8 max-w-4xl mx-auto">
+				<p className="text-lg text-gray-600 mb-4">
+					Dispozitive asistive de citit acreditate ca dispozitive medicale de
+					către ANMDM
+				</p>
+				<div className="flex flex-wrap justify-center gap-6 text-sm text-gray-700">
+					<span className="bg-gray-200 px-3 py-1 rounded-full">✓ TVA 0%</span>
+					<span className="bg-gray-200 px-3 py-1 rounded-full">
+						✓ Disponibil în peste 50 țări
+					</span>
+					<span className="bg-gray-200 px-3 py-1 rounded-full">
+						✓ Suport în 28 limbi
+					</span>
+					<span className="bg-gray-200 px-3 py-1 rounded-full">
+						✓ 2 ani garanție
+					</span>
+				</div>
+			</div>
 			<div className="flex justify-center text-center gap-[100px] flex-wrap pt-[80px]">
 				{products.map((product) => (
 					<ProductCard key={product.id} product={product} />

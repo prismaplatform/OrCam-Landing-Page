@@ -105,9 +105,10 @@ const GetAlong = () => {
 			</div>
 			<FadeContent className="text-center px-4 flex flex-col gap-10 py-[60px] items-center justify-center">
 				<div className="text-center">
-					<h2 className="text-5xl font-bold mb-5">Feedback</h2>
+					<h2 className="text-5xl font-bold mb-5">
+						Experiențe reale, rezultate reale
+					</h2>
 					<p>
-						Experiențe reale, rezultate reale. <br />
 						Descoperă cum produsele noastre fac diferența în viața de zi cu zi.
 					</p>
 				</div>

@@ -18,7 +18,7 @@ const reasons = [
 const Why = () => {
 	return (
 		<div
-			className="px-4 md:px-8 lg:px-0 text-center py-[60px] w-full flex justify-center"
+			className="px-4 md:px-8 lg:px-0 text-center py-[100px] w-full flex justify-center"
 			style={{
 				background:
 					"linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%)",

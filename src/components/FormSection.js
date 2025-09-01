@@ -4,7 +4,7 @@ const FormSection = () => {
 	return (
 		<div className="bg-white text-center" id="contact">
 			<FadeContent>
-				<h2 className="text-5xl font-bold py-[60px] pb-5">Form Section</h2>
+				<h2 className="text-5xl font-bold py-[60px] pb-5">Formular</h2>
 				<p className="max-w-4xl mx-auto pb-[50px] px-6">
 					Completează formularul de mai jos și vom reveni la tine în cel mai
 					scurt timp posibil. Fie că ai nevoie de informații suplimentare, o
