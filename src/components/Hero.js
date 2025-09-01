@@ -21,7 +21,7 @@ const Hero = () => {
 						colors={["#000000", "#777777", "#000000"]}
 						animationSpeed={4}
 						showBorder={false}
-						className="text-3xl md:text-6xl font-extrabold">
+						className="text-3xl md:text-5xl font-extrabold">
 						Obține gratuit finanțare de până la 39.000 RON pentru tehnologie
 						asistivă!
 					</GradientText>

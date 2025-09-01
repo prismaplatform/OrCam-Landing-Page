@@ -43,12 +43,12 @@ const GetAlong = () => {
 	return (
 		<>
 			<div
-				className="px-2 md:px-0 text-center py-[80px] md:py-[150px] w-full flex justify-center"
+				className="px-2 md:px-0 text-center py-[80px] md:py-[130px] w-full flex justify-center"
 				style={{
 					background:
 						"linear-gradient(to top, rgba(245, 245, 245, 1) 0%, rgba(220, 220, 220, 1) 100%)",
 				}}>
-				<FadeContent className="w-full mx-2 md:mx-30 bg-gray-100 rounded-2xl flex flex-col lg:flex-row justify-between min-h-[400px] lg:h-[calc(100vh-20rem)]">
+				<FadeContent className="w-full mx-2 md:mx-30 bg-gray-100 rounded-2xl flex flex-col lg:flex-row justify-between min-h-[400px]">
 					<Image
 						src="/get-along.webp"
 						width={600}
@@ -81,7 +81,7 @@ const GetAlong = () => {
 					</div>
 				</FadeContent>
 			</div>
-			<FadeContent className="text-center px-4 flex flex-col gap-10 py-[80px] md:py-[150px] items-center justify-center">
+			<FadeContent className="text-center px-4 flex flex-col gap-10 py-[80px] md:py-[130px] items-center justify-center">
 				<h2 className="text-5xl font-bold mb-10">Feedback</h2>
 				<FadeContent className="mx-2 md:mx-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full md:w-2/3 ">
 					{feedback.map((item) => (

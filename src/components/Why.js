@@ -18,7 +18,7 @@ const reasons = [
 const Why = () => {
 	return (
 		<div
-			className="px-4 md:px-8 lg:px-0 text-center py-[80px] md:py-[150px] w-full flex justify-center"
+			className="px-4 md:px-8 lg:px-0 text-center py-[80px] md:py-[130px] w-full flex justify-center"
 			style={{
 				background:
 					"linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%)",
@@ -32,7 +32,7 @@ const Why = () => {
 						Nu ești singur - punem la dispoziție o echipă dedicată pentru tine.
 					</p>
 				</FadeContent>
-				<FadeContent className="flex flex-col md:flex-row justify-center items-center gap-20 lg:gap-40 w-full">
+				<FadeContent className="flex flex-col md:flex-row justify-center items-center gap-20 lg:gap-30 w-full">
 					{reasons.map((reason, index) => (
 						<FadeContent
 							key={index}
