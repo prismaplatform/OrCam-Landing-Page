@@ -2,6 +2,7 @@ import Eligibility from "@/components/Eligibility";
 import FormSection from "@/components/FormSection";
 import GetAlong from "@/components/GetAlong";
 import Hero from "@/components/Hero";
+import ImagesSection from "@/components/ImagesSection";
 import Process from "@/components/Process";
 import Products from "@/components/Products";
 import VideoSection from "@/components/VideoSection";
@@ -12,6 +13,7 @@ export default function Home() {
 		<>
 			<Hero />
 			<VideoSection />
+			<ImagesSection />
 			<Products />
 			<Eligibility />
 			<Process />

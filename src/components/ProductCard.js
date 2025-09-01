@@ -1,7 +1,18 @@
+"use client";
 import Image from "next/image";
 import FadeContent from "./gsap/FadeContent";
 
 const ProductCard = ({ product }) => {
+	const handleSmoothScroll = (e, targetId) => {
+		e.preventDefault();
+		const element = document.getElementById(targetId);
+		if (element) {
+			element.scrollIntoView({
+				behavior: "smooth",
+				block: "start",
+			});
+		}
+	};
 	return (
 		<FadeContent className="flex flex-col items-center gap-5">
 			<div className="h-[150px] flex justify-end align-bottom">
@@ -15,9 +26,12 @@ const ProductCard = ({ product }) => {
 			</div>
 			<p className="font-bold">{product.name}</p>
 			<p>{product.description}</p>
-			<button className="text-white text-sm w-fit px-5 py-[4px] rounded-full bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out transform cursor-pointer">
+			<a
+				href="#contact"
+				onClick={(e) => handleSmoothScroll(e, "contact")}
+				className="text-white text-sm w-fit px-5 py-[4px] rounded-full bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out transform cursor-pointer">
 				Conectează-ne
-			</button>
+			</a>
 			<hr className="w-[90%] border-gray-300" />
 			{product.info.map((item, index) => (
 				<div

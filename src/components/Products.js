@@ -92,6 +92,10 @@ const products = [
 		],
 		info2: [
 			{
+				text: "Tot ce poate face OrCam MyEye Smart",
+				icon: "fa-sharp fa-regular fa-pro",
+			},
+			{
 				text: "Citește texte",
 				icon: "fa-sharp fa-regular fa-file-text",
 			},

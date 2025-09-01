@@ -18,12 +18,12 @@ const reasons = [
 const Why = () => {
 	return (
 		<div
-			className="px-4 md:px-8 lg:px-0 text-center py-[200px] min-h-[calc(100vh-10rem)] w-full flex justify-center"
+			className="px-4 md:px-8 lg:px-0 text-center py-[150px] w-full flex justify-center"
 			style={{
 				background:
 					"linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 100%)",
 			}}>
-			<div className="w-full max-w-6xl flex flex-col justify-center items-center gap-15 lg:gap-20">
+			<div className="w-full max-w-6xl flex flex-col justify-center items-center gap-15 lg:gap-30">
 				<FadeContent>
 					<h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 md:mb-8 lg:mb-10">
 						De ce să alegi OrCam?
