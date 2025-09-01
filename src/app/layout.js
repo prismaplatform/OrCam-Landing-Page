@@ -11,12 +11,11 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-	title:
-		"OrCam România - Finanțare gratuită până la 39.000 RON pentru tehnologie asistivă",
+	title: "OrCam MyEye - Cel mai bun pentru citire și produse",
 	description:
-		"Obține finanțare gratuită de până la 39.000 RON prin programul Teach Assist pentru echipamente OrCam inovatoare. Tehnologie asistivă pentru persoane cu deficiențe de vedere - OrCam MyEye Pro, Smart și Read.",
+		"Descoperă produse OrCam MyEye Smart prin eligibilitatea proces. Cel mai bun pentru citire mai ușoară cu OrCam MyEye și produse eligibilitatea.",
 	keywords:
-		"OrCam România, tehnologie asistivă, deficiențe vedere, finanțare gratuită, Teach Assist, OrCam MyEye Pro, OrCam MyEye Smart, OrCam Read, persoane nevăzătoare, independență, program european, 39000 RON",
+		"orcam, orcam myeye, pentru citire, mai bun, produse, prin, myeye smart, cel mai bun pentru, produse eligibilitatea, eligibilitatea proces, myeye smart citire, bun pentru citire",
 	authors: [{ name: "OrCam România" }],
 	creator: "OrCam România",
 	publisher: "OrCam România",

@@ -16,14 +16,16 @@ const Hero = () => {
 	return (
 		<section className="h-[calc(100vh-10rem)] flex flex-col justify-center items-center text-center px-2 md:px-0">
 			<FadeContent className="w-full md:w-2/3 flex flex-col items-center gap-6 md:gap-7">
-				<GradientText
-					colors={["#000000", "#777777", "#000000"]}
-					animationSpeed={4}
-					showBorder={false}
-					className="text-3xl md:text-6xl font-extrabold">
-					Obține gratuit finanțare de până la 39.000 RON pentru tehnologie
-					asistivă!
-				</GradientText>
+				<h1>
+					<GradientText
+						colors={["#000000", "#777777", "#000000"]}
+						animationSpeed={4}
+						showBorder={false}
+						className="text-3xl md:text-6xl font-extrabold">
+						Obține gratuit finanțare de până la 39.000 RON pentru tehnologie
+						asistivă!
+					</GradientText>
+				</h1>
 				<p className="text-lg">
 					Prin programul Teach Assist poți achiziționa echipamente inovatoare
 					OrCam care îți fac viața de zi cu zi mai simplă și mai independentă.

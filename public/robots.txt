@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://or-cam-landing-page.vercel.app/sitemap.xml
+
+# Common crawl delays (optional)
+Crawl-delay: 1
+
+# Block common non-essential paths (if you have them)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
