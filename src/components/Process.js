@@ -74,7 +74,7 @@ const Process = () => {
 		<div
 			id="proces"
 			ref={containerRef}
-			className="min-h-[calc(100vh)] px-2 md:px-0 text-center py-[80px] md:py-[130px] w-full flex justify-center items-center flex-col relative z-10"
+			className="min-h-[calc(100vh)] px-2 md:px-0 text-center py-[60px] w-full flex justify-center items-center flex-col relative z-10"
 			style={{
 				background:
 					"radial-gradient(ellipse,rgba(245, 245, 245, 1) 20%, rgba(220, 220, 220, 1) 60%)",

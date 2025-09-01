@@ -14,7 +14,7 @@ const Hero = () => {
 		}
 	};
 	return (
-		<section className="h-[calc(100vh-10rem)] flex flex-col justify-center items-center text-center px-2 md:px-0">
+		<section className="h-[calc(100vh-10rem)] flex flex-col justify-center items-center text-center px-5 md:px-0">
 			<FadeContent className="w-full md:w-2/3 flex flex-col items-center gap-6 md:gap-7">
 				<h1>
 					<GradientText
@@ -31,8 +31,8 @@ const Hero = () => {
 					OrCam care îți fac viața de zi cu zi mai simplă și mai independentă.
 				</p>
 				<a
-					href="#contact"
-					onClick={(e) => handleSmoothScroll(e, "contact")}
+					href="#products"
+					onClick={(e) => handleSmoothScroll(e, "products")}
 					className="text-white text-sm w-fit px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out transform cursor-pointer">
 					Explorează produsele
 				</a>

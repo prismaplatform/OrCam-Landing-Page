@@ -127,9 +127,9 @@ const Products = () => {
 	return (
 		<section
 			id="products"
-			className="min-h-[calc(100vh-4rem)] px-2 md:px-0 text-center pt-[100px] pb-[200px] md:pb-[0px] relative">
+			className="px-2 md:px-0 text-center py-[60px] md:pb-[0px] relative">
 			<h2 className="text-5xl font-bold">Produse disponibile</h2>
-			<div className="flex justify-center text-center gap-[100px] flex-wrap pt-[150px]">
+			<div className="flex justify-center text-center gap-[100px] flex-wrap pt-[80px]">
 				{products.map((product) => (
 					<ProductCard key={product.id} product={product} />
 				))}
