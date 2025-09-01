@@ -41,10 +41,10 @@ export const metadata = {
 		siteName: "OrCam România",
 		images: [
 			{
-				url: "/orcam-myeye-pro.webp",
+				url: "/SEO-image.webp",
 				width: 1200,
 				height: 630,
-				alt: "OrCam MyEye Pro - Tehnologie asistivă pentru persoane cu deficiențe de vedere",
+				alt: "OrCam - Tehnologie asistivă pentru persoane cu deficiențe de vedere",
 			},
 		],
 	},
@@ -53,7 +53,7 @@ export const metadata = {
 		title: "OrCam România - Finanțare gratuită până la 39.000 RON",
 		description:
 			"Tehnologie asistivă OrCam cu finanțare gratuită prin programul Teach Assist. Pentru persoane cu deficiențe de vedere.",
-		images: ["/orcam-myeye-pro.webp"],
+		images: ["/SEO-image.webp"],
 		creator: "@OrCam",
 		site: "@OrCam",
 	},
