@@ -52,7 +52,14 @@ const Footer = () => {
 						</div>
 						<div className="mt-8">
 							<p className="text-gray-400 text-sm">
-								© 2025 OrCam. Toate drepturile rezervate.
+								© Copyright © 2025. All Rights Reserved |{" "}
+								<span className="text-gray-300">OrCam</span> <br /> Designed &
+								Developed |{" "}
+								<a
+									href="https://www.prismasolutions.ro"
+									className="text-gray-300">
+									Prisma Solutions
+								</a>
 							</p>
 						</div>
 					</div>
@@ -96,8 +103,8 @@ const Footer = () => {
 							</ul>
 						</nav>
 					</div>
-					<div className="flex flex-col justify-between items-start lg:items-end">
-						<div className="flex flex-col items-start lg:items-end">
+					<div className="flex flex-col justify-end items-end">
+						{/* <div className="flex flex-col items-start lg:items-end">
 							<a href="https://anpd.gov.ro/web/proiecte/proiecte-europene/incluziune-sociala-a-persoanelor-cu-dizabilitati/">
 								<Image
 									src="/guvern.webp"
@@ -112,7 +119,7 @@ const Footer = () => {
 								<br />
 								Programul European
 							</p>
-						</div>
+						</div> */}
 						<div className="mt-8 flex flex-col space-y-2 text-left lg:text-right">
 							<a
 								href="https://www.orcam.com/ro-ro/terms-and-conditions"

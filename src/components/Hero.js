@@ -21,14 +21,15 @@ const Hero = () => {
 						colors={["#000000", "#777777", "#000000"]}
 						animationSpeed={4}
 						showBorder={false}
-						className="text-3xl md:text-5xl font-extrabold">
-						Obține gratuit finanțare de până la 39.000 RON pentru tehnologie
-						asistivă!
+						className="text-3xl md:text-6xl font-extrabold">
+						Obține gratuit finanțare de până la 39.000 RON pentru dispozitive
+						asistive de citit!
 					</GradientText>
 				</h1>
 				<p className="text-lg">
-					Prin programul Teach Assist poți achiziționa echipamente inovatoare
-					OrCam care îți fac viața de zi cu zi mai simplă și mai independentă.
+					Prin programul <b>Tech Assist</b> poți achiziționa echipamente cu
+					technologie asistivă de citire OrCam, care îți fac viața de zi cu zi
+					mai simplă și mai independentă.
 				</p>
 				<a
 					href="#products"

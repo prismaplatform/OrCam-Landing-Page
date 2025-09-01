@@ -15,10 +15,10 @@ const ImagesSection = () => {
 					<h4 className="text-xl mt-5">Citește de pe orice suprafață.</h4>
 					<h3 className="text-4xl font-bold">OrCam Read</h3>
 					<p>
-						Dispozitivul este special creat pentru persoanele nevăzătoare sau cu
-						deficiențe de vedere și folosește cea mai avansată inteligență
-						artificială pentru a citi ziarul de dimineață, o carte favorită,
-						mesajele text, emailurile și nu doar atât.
+						Dispozitivul este special creat pentru persoanele cu deficiență de
+						vedere, folosește cea mai avansată inteligență artificială pentru a
+						citi ziarul de dimineață, o carte favorită, mesajele text,
+						emailurile și nu doar atât.
 					</p>
 				</div>
 				<div className="text-center flex flex-col gap-5">
@@ -35,9 +35,9 @@ const ImagesSection = () => {
 					<h3 className="text-4xl font-bold">OrCam MyEye Pro</h3>
 					<p>
 						Dispozitiv activat prin voce care asigură o independență sporită
-						prin comunicarea informațiilor vizuale, în mod audibil. Cu OrCam
-						MyEye puteți citi texte, recunoaște fețe, identifica produse și
-						multe altele.
+						prin comunicarea informațiilor vizuale, în mod audibil. OrCam MyEye
+						face posibil citirea textelor, recunoașterea fețelor, identificarea
+						produselor și multe altele.
 					</p>
 				</div>
 			</div>

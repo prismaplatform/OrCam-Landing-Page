@@ -14,9 +14,9 @@ const Eligibility = () => {
 					Cine se poate înscrie în program?
 				</h2>
 				<p className="text-lg mb-8">
-					Este necesar certificatul cu <b>grad de handicap</b>. Dacă
-					îndeplinești această condiție, poți beneficia de finanțarea de până la
-					39.000 RON.
+					Pentru înscriere se necesită <b> certificat cu grad de handicap</b>.
+					Dacă îndeplinești această condiție, poți beneficia de finanțarea de
+					până la 39.000 RON.
 				</p>
 				<div className="text-start flex flex-col gap-5">
 					<p>

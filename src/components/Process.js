@@ -54,19 +54,19 @@ const Process = () => {
 	const processSteps = [
 		{
 			icon: "fa-sharp fa-solid fa-circle-check",
-			text: "Completezi formularul de pe site.",
+			text: "Completezi formularul de pe website-ul nostru.",
 		},
 		{
 			icon: "fa-sharp fa-solid fa-phone",
-			text: "Echipa OrCam România te contactează și te sprijină cu documentele necesare.",
+			text: "Echipa OrCam România te contactează și te sprijină pe tot parcursul procesului.",
 		},
 		{
 			icon: "fa-sharp fa-solid fa-file",
-			text: "Primești aprobarea finanțării prin program.",
+			text: "Primești aprobarea finanțării prin programul Tech Assist.",
 		},
 		{
 			icon: "fa-sharp fa-solid fa-cart-shopping",
-			text: "Achiziționezi produsul OrCam potrivit nevoilor tale.",
+			text: "Finalizăm achiziționarea produselor OrCam, potrivit nevoilor tale.",
 		},
 	];
 
