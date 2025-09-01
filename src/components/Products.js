@@ -78,30 +78,22 @@ const products = [
 	{
 		id: 3,
 		name: "OrCam MyEye Pro",
-		description: "Cel mai bun pentru citire",
+		description: "Pentru utilizatorii avansați",
 		image: "orcam-myeye-pro.webp",
 		info: [
 			{
 				text: "Citire texte",
-				icon: "fa-sharp fa-solid fa-circle-check",
+				icon: "fa-sharp fa-regular fa-pro",
 			},
 			{
 				text: "Citire smart",
-				icon: "fa-sharp fa-solid fa-circle-check",
+				icon: "fa-sharp fa-regular fa-pro",
 			},
 		],
 		info2: [
 			{
-				text: "Tot ce poate face OrCam MyEye Smart",
-				icon: "fa-sharp fa-regular fa-pro",
-			},
-			{
-				text: "Citește texte",
-				icon: "fa-sharp fa-regular fa-file-text",
-			},
-			{
-				text: "Ușor de utilizat",
-				icon: "fa-sharp fa-regular fa-hand-point-up",
+				text: "Funcțiile lui OrCam MyEye Smart",
+				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
 				text: "Recunoaște fețe",
