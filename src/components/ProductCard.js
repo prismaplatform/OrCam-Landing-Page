@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
 		}
 	};
 	return (
-		<FadeContent className="flex flex-col items-center gap-5">
+		<FadeContent className="flex flex-col items-center gap-5 max-w-[100%] md:max-w-[22%] ">
 			<div className="h-[150px] flex justify-end align-bottom">
 				<Image
 					src={`/${product.image}`}

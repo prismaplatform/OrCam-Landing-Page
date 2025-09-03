@@ -34,10 +34,10 @@ const ImagesSection = () => {
 					</h4>
 					<h3 className="text-4xl font-bold">OrCam MyEye Pro</h3>
 					<p>
-						Dispozitiv activat prin voce care asigură o independență sporită
-						prin comunicarea informațiilor vizuale, în mod audibil. OrCam MyEye
-						face posibil citirea textelor, recunoașterea fețelor, identificarea
-						produselor și multe altele.
+						Dispozitiv activat prin voce sau gesturi, asigură o independență
+						sporită prin comunicarea informațiilor vizuale, în mod audibil.
+						OrCam MyEye face posibil citirea textelor, recunoașterea fețelor, a
+						bancnotelor, a orei exacte, a culorilor și nu se oprește aici.
 					</p>
 				</div>
 			</div>

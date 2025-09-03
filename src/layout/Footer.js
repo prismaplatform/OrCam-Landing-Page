@@ -33,22 +33,7 @@ const Footer = () => {
 								calitatea vieții prin tehnologie avansată.
 							</p>
 							{/* Contact Information */}
-							<div className="mt-4 space-y-2">
-								<div className="flex items-center text-gray-300 text-sm">
-									<a
-										href="mailto:contact@orcam.ro"
-										className="hover:text-white transition-colors duration-200">
-										contact@orcam.ro
-									</a>
-								</div>
-								<div className="flex items-center text-gray-300 text-sm">
-									<a
-										href="tel:+40123456789"
-										className="hover:text-white transition-colors duration-200">
-										+40 123 456 789
-									</a>
-								</div>
-							</div>
+							<div className="mt-4 space-y-2"></div>
 						</div>
 						<div className="mt-8">
 							<p className="text-gray-400 text-sm">
@@ -104,8 +89,8 @@ const Footer = () => {
 						</nav>
 					</div>
 					<div className="flex flex-col justify-end items-end">
-						{/* <div className="flex flex-col items-start lg:items-end">
-							<a href="https://anpd.gov.ro/web/proiecte/proiecte-europene/incluziune-sociala-a-persoanelor-cu-dizabilitati/">
+						<div className="flex flex-col justify-end gap-1 items-start lg:items-end">
+							{/* <a href="https://anpd.gov.ro/web/proiecte/proiecte-europene/incluziune-sociala-a-persoanelor-cu-dizabilitati/">
 								<Image
 									src="/guvern.webp"
 									alt="Guvernul României Logo"
@@ -118,8 +103,38 @@ const Footer = () => {
 								Finanțat prin
 								<br />
 								Programul European
-							</p>
-						</div> */}
+							</p> */}
+							<div className="flex items-center text-gray-300 text-sm">
+								<a
+									href="mailto:contact@orcam.ro"
+									className="hover:text-white transition-colors duration-200">
+									contact-ro@orcam.com
+								</a>
+							</div>
+							<div className="flex items-center text-gray-300 text-sm">
+								<a
+									href="tel:0365800801"
+									className="hover:text-white transition-colors duration-200">
+									0365.800.801
+								</a>
+							</div>
+							<div className="flex items-center text-gray-300 text-sm">
+								<a
+									href="tel:0745993295"
+									className="hover:text-white transition-colors duration-200">
+									0745.993.295
+								</a>
+								<span className="ms-2"> - Dana Petrutan</span>
+							</div>
+							<div className="flex items-center text-gray-300 text-sm">
+								<a
+									href="tel:0736439634"
+									className="hover:text-white transition-colors duration-200">
+									0736.439.634
+								</a>
+								<span className="mss-2"> - Laszlo Noemi</span>
+							</div>
+						</div>
 						<div className="mt-8 flex flex-col space-y-2 text-left lg:text-right">
 							<a
 								href="https://www.orcam.com/ro-ro/terms-and-conditions"
@@ -131,8 +146,8 @@ const Footer = () => {
 								className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
 								Politica de Cookie-uri
 							</a>
-							<div className="flex space-x-3 mt-2">
-								<a href="https://www.facebook.com/OrCamTech">
+							<div className="flex justify-end space-x-3 mt-2">
+								{/* <a href="https://www.facebook.com/OrCamTech">
 									<i className="fa-brands fa-facebook-f fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
 								</a>
 								<a href="https://www.youtube.com/c/OrCamTech">
@@ -143,8 +158,8 @@ const Footer = () => {
 								</a>
 								<a href="https://www.instagram.com/orcam_technologies/">
 									<i className="fa-brands fa-instagram fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
-								</a>
-								<a href="https://www.linkedin.com/company/orcam/">
+								</a> */}
+								<a href="https://www.linkedin.com/company/101307102/admin/dashboard/">
 									<i className="fa-brands fa-linkedin-in fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
 								</a>
 							</div>

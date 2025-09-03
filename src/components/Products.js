@@ -9,16 +9,16 @@ gsap.registerPlugin(ScrollTrigger);
 const products = [
 	{
 		id: 1,
-		name: "OrCam Read",
-		description: "Cel mai bun pentru citire",
+		name: "OrCam Read Smart",
+		description: "Pentru citire la persoane cu rest de vedere",
 		image: "orcam-read.webp",
 		info: [
 			{
-				text: "Citire texte",
+				text: "Citire texte de pe orice suprafețe",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
-				text: "Citire smart",
+				text: "Navigare, pauză,  setare viteză de citire, detecție",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 		],
@@ -36,7 +36,7 @@ const products = [
 				icon: "fa-sharp fa-regular fa-lock",
 			},
 			{
-				text: "Pe care se poate tasta",
+				text: "Fără internet, fără alte aplicații, fără stocare de date",
 				icon: "fa-sharp fa-regular fa-hand-back-point-up",
 			},
 		],
@@ -44,15 +44,16 @@ const products = [
 	{
 		id: 2,
 		name: "OrCam MyEye Smart",
-		description: "Cel mai bun pentru citire zilnică",
+		description:
+			"Pentru citire zilnică inclusiv pentru persoane total nevăzătoare",
 		image: "orcam-myeye-smart.webp",
 		info: [
 			{
-				text: "Citire texte",
+				text: "Citire texte de pe orice suprafețe",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
-				text: "Citire smart",
+				text: "Navigare, pauză,  setare viteză de citire, detecție",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 		],
@@ -78,15 +79,16 @@ const products = [
 	{
 		id: 3,
 		name: "OrCam MyEye Pro",
-		description: "Pentru utilizatorii avansați",
+		description:
+			"Pentru citire zilnică și funcții suplimentare pentru persoane total nevăzătoare",
 		image: "orcam-myeye-pro.webp",
 		info: [
 			{
-				text: "Citire texte",
+				text: "Citire texte de pe orice suprafețe, detecție culori, bancnote, fețe, ora exactă",
 				icon: "fa-sharp fa-regular fa-pro",
 			},
 			{
-				text: "Citire smart",
+				text: "Navigare, pauză,  setare viteză de citire, detecție",
 				icon: "fa-sharp fa-regular fa-pro",
 			},
 		],
@@ -100,8 +102,8 @@ const products = [
 				icon: "fa-sharp fa-regular fa-face-smile",
 			},
 			{
-				text: "Identifică produse & coduri de bare",
-				icon: "fa-sharp fa-regular fa-barcode",
+				text: "ra exactă",
+				icon: "fa-sharp fa-regular fa-clock",
 			},
 			{
 				text: "Recunoaștere bancnote",
@@ -124,7 +126,8 @@ const Products = () => {
 			<div className="mt-6 mb-8 max-w-4xl mx-auto">
 				<p className="text-lg text-gray-600 mb-4">
 					Dispozitive asistive de citit acreditate ca dispozitive medicale de
-					către ANMDM
+					către Autoritatea Nationala a Medicamentelor si Dispozitivelor
+					Medicale din Romania ANMDM
 				</p>
 				<div className="flex flex-wrap justify-center gap-6 text-sm text-gray-700">
 					<span className="bg-gray-200 px-3 py-1 rounded-full">✓ TVA 0%</span>

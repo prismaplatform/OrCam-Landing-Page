@@ -27,9 +27,9 @@ const Hero = () => {
 					</GradientText>
 				</h1>
 				<p className="text-lg">
-					Prin programul <b>Tech Assist</b> poți achiziționa echipamente cu
-					technologie asistivă de citire OrCam, care îți fac viața de zi cu zi
-					mai simplă și mai independentă.
+					Prin programul <b>Tech Assist</b> poți achiziționa technologie
+					asistivă de citire OrCam, care îți fac viața de zi cu zi mai simplă și
+					mai independentă.
 				</p>
 				<a
 					href="#products"
