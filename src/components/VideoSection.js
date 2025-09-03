@@ -49,7 +49,7 @@ const VideoSection = () => {
 				loop
 				muted
 				playsInline>
-				<source src="/landing-video-1080p.mp4" type="video/mp4" />
+				<source src="/landing-video-720p.mp4" type="video/mp4" />
 				Your browser does not support the video tag.
 			</video>
 		</section>
