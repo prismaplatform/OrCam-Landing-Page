@@ -37,7 +37,7 @@ const products = [
 			},
 			{
 				text: "Fără internet, fără alte aplicații, fără stocare de date",
-				icon: "fa-sharp fa-regular fa-hand-back-point-up",
+				icon: "fa-sharp fa-regular fa-wifi-slash",
 			},
 		],
 	},
@@ -102,7 +102,7 @@ const products = [
 				icon: "fa-sharp fa-regular fa-face-smile",
 			},
 			{
-				text: "ra exactă",
+				text: "Ora exactă",
 				icon: "fa-sharp fa-regular fa-clock",
 			},
 			{
