@@ -18,7 +18,7 @@ const products = [
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
-				text: "Navigare, pauză,  setare viteză de citire, detecție",
+				text: "Navigare, pauză,  setare viteză de citire, detecție automată a limbii de citire",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 		],
@@ -53,7 +53,7 @@ const products = [
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 			{
-				text: "Navigare, pauză,  setare viteză de citire, detecție",
+				text: "Navigare, pauză,  setare viteză de citire, detecție automată a limbii de citire",
 				icon: "fa-sharp fa-solid fa-circle-check",
 			},
 		],
@@ -88,7 +88,7 @@ const products = [
 				icon: "fa-sharp fa-regular fa-pro",
 			},
 			{
-				text: "Navigare, pauză,  setare viteză de citire, detecție",
+				text: "Navigare, pauză,  setare viteză de citire, detecție automată a limbii de citire",
 				icon: "fa-sharp fa-regular fa-pro",
 			},
 		],

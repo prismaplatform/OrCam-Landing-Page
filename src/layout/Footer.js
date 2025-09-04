@@ -35,7 +35,7 @@ const Footer = () => {
 							{/* Contact Information */}
 							<div className="mt-4 space-y-2"></div>
 						</div>
-						<div className="mt-8">
+						<div className="mt-8 hidden md:block">
 							<p className="text-gray-400 text-sm">
 								© Copyright © 2025. All Rights Reserved |{" "}
 								<span className="text-gray-300">OrCam</span> <br /> Designed &
@@ -48,9 +48,8 @@ const Footer = () => {
 							</p>
 						</div>
 					</div>
-					{/* Middle Section - Navigation Menu */}
-					<div className="flex flex-col items-start lg:items-start">
-						<h3 className="text-lg font-semibold mb-6">Navigare</h3>
+					<div className="flex flex-col items-start">
+						<h3 className="text-lg font-semibold mb-1">Navigare</h3>
 						<nav>
 							<ul className="flex flex-col space-y-4">
 								<li>
@@ -88,22 +87,23 @@ const Footer = () => {
 							</ul>
 						</nav>
 					</div>
-					<div className="flex flex-col justify-end items-end">
-						<div className="flex flex-col justify-end gap-1 items-start lg:items-end">
+					<div className="flex flex-col items-start lg:items-end">
+						<div className="flex flex-col gap-1 items-start lg:items-end">
+							<h3 className="text-lg font-semibold mb-1">Contact</h3>
 							{/* <a href="https://anpd.gov.ro/web/proiecte/proiecte-europene/incluziune-sociala-a-persoanelor-cu-dizabilitati/">
-								<Image
-									src="/guvern.webp"
-									alt="Guvernul României Logo"
-									width={80}
-									height={80}
-									className="mb-4 opacity-75 hover:opacity-100 cursor-pointer"
-								/>
-							</a>
-							<p className="text-gray-400 text-xs text-left lg:text-right">
-								Finanțat prin
-								<br />
-								Programul European
-							</p> */}
+													<Image
+														src="/guvern.webp"
+														alt="Guvernul României Logo"
+														width={80}
+														height={80}
+														className="mb-4 opacity-75 hover:opacity-100 cursor-pointer"
+													/>
+												</a>
+												<p className="text-gray-400 text-xs text-left lg:text-right">
+													Finanțat prin
+													<br />
+													Programul European
+												</p> */}
 							<div className="flex items-center text-gray-300 text-sm">
 								<a
 									href="mailto:contact@orcam.ro"
@@ -132,7 +132,7 @@ const Footer = () => {
 									className="hover:text-white transition-colors duration-200">
 									0736.439.634
 								</a>
-								<span className="mss-2"> - Laszlo Noemi</span>
+								<span className="ms-2"> - Laszlo Noemi</span>
 							</div>
 						</div>
 						<div className="mt-8 flex flex-col space-y-2 text-left lg:text-right">
@@ -146,23 +146,35 @@ const Footer = () => {
 								className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
 								Politica de Cookie-uri
 							</a>
-							<div className="flex justify-end space-x-3 mt-2">
-								{/* <a href="https://www.facebook.com/OrCamTech">
+							<div className="flex justify-start lg:justify-end space-x-3 mt-2">
+								<a href="https://www.facebook.com/share/1BUqof7bfq/?mibextid=wwXIfr">
 									<i className="fa-brands fa-facebook-f fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
 								</a>
-								<a href="https://www.youtube.com/c/OrCamTech">
-									<i className="fa-brands fa-youtube fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
-								</a>
-								<a href="https://twitter.com/OrCam">
-									<i className="fa-brands fa-x-twitter fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
-								</a>
-								<a href="https://www.instagram.com/orcam_technologies/">
+								{/* <a href="https://www.youtube.com/c/OrCamTech">
+														<i className="fa-brands fa-youtube fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+													</a>
+													<a href="https://twitter.com/OrCam">
+														<i className="fa-brands fa-x-twitter fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
+													</a> */}
+								<a href="https://www.instagram.com/orcam_distribuitor_autorizat?igsh=MTI1bzJsbnJsM2lodQ==">
 									<i className="fa-brands fa-instagram fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
-								</a> */}
+								</a>
 								<a href="https://www.linkedin.com/company/101307102/admin/dashboard/">
 									<i className="fa-brands fa-linkedin-in fa-sm opacity-75 hover:opacity-100 transition-opacity duration-200"></i>
 								</a>
 							</div>
+						</div>
+						<div className="mt-8 block md:hidden">
+							<p className="text-gray-400 text-sm">
+								© Copyright © 2025. All Rights Reserved |{" "}
+								<span className="text-gray-300">OrCam</span> <br /> Designed &
+								Developed |{" "}
+								<a
+									href="https://www.prismasolutions.ro"
+									className="text-gray-300">
+									Prisma Solutions
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>

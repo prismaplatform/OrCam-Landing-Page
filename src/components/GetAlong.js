@@ -6,7 +6,7 @@ import { useState } from "react";
 const feedback = [
 	{
 		id: 1,
-		name: "Anonim",
+		name: "V Muntean",
 		profession: "",
 		image: "/profile.webp",
 		comment:
